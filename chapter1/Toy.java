@@ -37,6 +37,6 @@ class Fruit3{
  class Fruit4{
     public static void main(String[] args) {
         System.out.println("I am Fruit 4");
-        Fruit3 f3 = new Fruit3();
+        Fruit3 f3 = new Fruit3(); 
     }
 }
