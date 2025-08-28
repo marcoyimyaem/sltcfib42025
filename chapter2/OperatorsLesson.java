@@ -19,5 +19,7 @@ public class OperatorsLesson {
         short y = 30;
         short z =(short) (x*y);
         System.out.println("z="+z);
+        boolean bugs = (x>=10 || (++x <=7));
+        System.out.println(x);
     }
 }
