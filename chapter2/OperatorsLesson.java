@@ -21,5 +21,6 @@ public class OperatorsLesson {
         System.out.println("z="+z);
         boolean bugs = (x>=10 || (++x <=7));
         System.out.println(x);
+        //
     }
 }
