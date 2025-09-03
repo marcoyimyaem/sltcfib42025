@@ -21,5 +21,10 @@ public class StringLesson {
         System.out.println(word1);
         String trimSample = "       \t \n \t Marc Yim          \t \n";
         System.out.println(trimSample.trim());
+        String s = "hello world";
+        String s2 = (" hello world").trim();
+        System.out.println(s==s2);
+        System.out.println(s.equals(s2));
+
     }
 }
