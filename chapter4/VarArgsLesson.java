@@ -1,10 +1,13 @@
 package chapter4;
 
+import java.util.Arrays;
+
 public class VarArgsLesson {
     int counter = 0;
     public static float MarsGravity = 3.72f;
     public int sumOfAllNums(int y,String p, int... nums){
-
+        int[] a = nums;
+        Arrays.sort(a);
         int sum = 0;
         for(int num:nums){
             sum+=num;
