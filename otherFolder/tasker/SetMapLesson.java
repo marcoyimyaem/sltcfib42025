@@ -2,7 +2,6 @@ package otherFolder.tasker;
 
 import java.util.*;
 
-
 public class SetMapLesson {
     // void testVarParam(var p){ } // var is not allowed in method param
     // SetMapLesson(var p){} // var is not allowed in constructor param
